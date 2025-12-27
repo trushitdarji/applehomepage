@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+  padding: 18px 0px;
+  background-color: white;
+}
+
+.nav i {
+  font-size: 20px;
+}
+.nav > h3 {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.line p {
+  text-align: center;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+  padding: 50px;
+}
+
+.center h1 {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.center h3 {
+  font-size: 35px;
+  padding: 15px 0px;
+  font-weight: 400;
+}
+
+.btn1 {
+  padding: 12px 20px;
+  border-radius: 30px;
+  margin: 10px 10px;
+  font-size: 22px;
+  border: none;
+  background-color: rgb(59, 105, 244);
+  color: white;
+}
+
+.btn2 {
+  padding: 12px 20px;
+  border-radius: 30px;
+  margin: 10px 15px;
+  font-size: 22px;
+  border: none;
+  color: royalblue;
+  border: 1px solid rgb(59, 105, 244);
+}
+
+.photo {
+  width: 100%;
+  height: 800px;
+  background-image: url("https://www.apple.com/in/home/heroes/iphone-family/images/hero_iphone_family__fuz5j2v5xx6y_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
